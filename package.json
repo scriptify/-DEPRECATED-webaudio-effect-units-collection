@@ -5,8 +5,7 @@
   "main": "build/bundle.js",
   "scripts": {
     "start:dev": "webpack-dev-server",
-    "start:prod": "webpack",
-    "postpublish": "git add -u && git commit && git push origin master"
+    "start:prod": "webpack"
   },
   "keywords": [],
   "author": "Maximilian Torggler",
@@ -32,5 +31,9 @@
   "dependencies": {
     "tunajs": "^0.4.8",
     "webaudio-effect-unit": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scriptify/webaudio-effect-units-collection.git"
   }
 }

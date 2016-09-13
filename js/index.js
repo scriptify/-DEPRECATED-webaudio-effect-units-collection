@@ -358,7 +358,7 @@ export default function createEffectCollection(audioCtx) {
     gain: createGain(audioCtx),
     chorus: createChorus(audioCtx, tuna),
     delay: createDelay(audioCtx, tuna),
-    paser: createPhaser(audioCtx, tuna),
+    phaser: createPhaser(audioCtx, tuna),
     overdrive: createOverdrive(audioCtx, tuna),
     compressor: createCompressor(audioCtx, tuna),
     lowpass: createLowpass(audioCtx, tuna),
