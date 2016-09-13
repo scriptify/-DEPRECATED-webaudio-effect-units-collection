@@ -1,0 +1,36 @@
+{
+  "name": "webaudio-effect-units-collection",
+  "version": "0.0.1",
+  "description": "A bunch of different EffectUnits which can be used right away. They are all based on the webaudio-effect-unit.",
+  "main": "build/bundle.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "start:prod": "webpack",
+    "postpublish": "git add -u && git commit && git push origin master"
+  },
+  "keywords": [],
+  "author": "Maximilian Torggler",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-async-to-generator": "*",
+    "babel-plugin-transform-async-to-module-method": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "file-loader": "^0.9.0",
+    "npm-install-webpack-plugin": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-merge": "*",
+    "worker-loader": "*"
+  },
+  "dependencies": {
+    "tunajs": "^0.4.8",
+    "webaudio-effect-unit": "^1.0.1"
+  }
+}
