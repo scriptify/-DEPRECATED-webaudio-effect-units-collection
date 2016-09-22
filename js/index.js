@@ -201,7 +201,7 @@ export function createLowpass(audioCtx) {
     audioCtx);
 }
 
-export function createHighpass(audioCtx, tuna = new Tuna(audioCtx)) {
+export function createHighpass(audioCtx) {
   return new EffectUnit(
     {
       highpass: () => {
@@ -361,8 +361,8 @@ export default function createEffectCollection(audioCtx) {
     phaser: createPhaser(audioCtx, tuna),
     overdrive: createOverdrive(audioCtx, tuna),
     compressor: createCompressor(audioCtx, tuna),
-    lowpass: createLowpass(audioCtx, tuna),
-    highpass: createHighpass(audioCtx, tuna),
+    lowpass: createLowpass(audioCtx),
+    highpass: createHighpass(audioCtx),
     tremolo: createTremolo(audioCtx, tuna),
     wahwah: createWahWah(audioCtx, tuna),
     bitcrusher: createBitcrusher(audioCtx, tuna),
