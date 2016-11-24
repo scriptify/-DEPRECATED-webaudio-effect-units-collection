@@ -3,6 +3,7 @@
 Effects for everyone!
 
 All effects of this collection are based on the [webaudio-effect-unit](https://github.com/scriptify/webaudio-effect-unit) module.
+If you want to gain a deeper knowledge on how you can use those effects, have a look at this repository.
 Here a list of all the effects included in this package:
 
 * Gain

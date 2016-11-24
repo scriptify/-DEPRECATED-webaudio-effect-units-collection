@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "tunajs": "^0.4.8",
-    "webaudio-effect-unit": "^1.0.1"
+    "webaudio-effect-unit": "^1.1.0"
   },
   "repository": {
     "type": "git",
