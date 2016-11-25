@@ -52,13 +52,3 @@ export default function createEffectCollection(audioCtx) {
 }
 
 const audioCtx = new AudioContext();
-
-console.log( createEffectCollection(audioCtx), EFFECT_DATA );
-
-// COPY ALL BELOW
-
-
-/*
-
-
-*/
