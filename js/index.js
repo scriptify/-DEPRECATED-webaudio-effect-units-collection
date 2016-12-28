@@ -50,5 +50,3 @@ export default function createEffectCollection(audioCtx) {
     pingPongDelay: createPingPongDelay(audioCtx, tuna)
   };
 }
-
-const audioCtx = new AudioContext();
