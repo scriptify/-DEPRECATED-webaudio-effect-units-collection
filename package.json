@@ -1,6 +1,6 @@
 {
   "name": "webaudio-effect-units-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A bunch of different EffectUnits which can be used right away. They are all based on the webaudio-effect-unit.",
   "main": "build/bundle.js",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "tunajs": "*",
-    "webaudio-effect-unit": "*"
+    "webaudio-effect-unit": "^1.1.2"
   },
   "repository": {
     "type": "git",
